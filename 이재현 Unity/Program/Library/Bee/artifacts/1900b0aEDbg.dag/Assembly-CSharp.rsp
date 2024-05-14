@@ -354,6 +354,8 @@
 -analyzer:"C:/Program Files/Unity 2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Class2th(Export_Package)/Scripts/Data.cs"
 "Assets/Class3th(animator)/Scripts/Night.cs"
+"Assets/Class4th(LifeCycle)/Scripts/Life.cs"
+"Assets/Class4th(LifeCycle)/Scripts/Sphere.cs"
 -langversion:9.0
 
 /deterministic

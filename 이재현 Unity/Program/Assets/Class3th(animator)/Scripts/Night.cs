@@ -11,6 +11,14 @@ public class Night : MonoBehaviour
     // class Doozy = new Doozy();
 
     // 최상위 타입 : object : 값 타입 참조 타입 다담을 수 있는 타입  - 참조타입으로 되어있다 .
-    
+    public int [] data;
+    private void Start()
+    {
+        foreach(int element in data)  
+        {
+            Debug.Log(element);
+        }
+       
+    }
 
 }
