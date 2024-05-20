@@ -359,6 +359,7 @@
 "Assets/Class5th(colllider)/Scripts/Cube.cs"
 "Assets/Class5th(colllider)/Scripts/EffectZone.cs"
 "Assets/Class6th(User Interface)/Scripts/Button_Manager.cs"
+"Assets/Class7th(Sound)/Scripts/AudioManager.cs"
 -langversion:9.0
 
 /deterministic
