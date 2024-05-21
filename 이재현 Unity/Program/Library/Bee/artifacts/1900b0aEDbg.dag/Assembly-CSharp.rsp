@@ -360,6 +360,7 @@
 "Assets/Class5th(colllider)/Scripts/EffectZone.cs"
 "Assets/Class6th(User Interface)/Scripts/Button_Manager.cs"
 "Assets/Class7th(Sound)/Scripts/AudioManager.cs"
+"Assets/Class8th(Transform)/Scripts/Player.cs"
 -langversion:9.0
 
 /deterministic
