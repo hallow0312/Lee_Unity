@@ -361,6 +361,11 @@
 "Assets/Class6th(User Interface)/Scripts/Button_Manager.cs"
 "Assets/Class7th(Sound)/Scripts/AudioManager.cs"
 "Assets/Class8th(Transform)/Scripts/Player.cs"
+"Assets/Class9th(Instantiate&Destroy)/Scripts/CreateManager.cs"
+"Assets/Class9th(Instantiate&Destroy)/Scripts/Factory.cs"
+"Assets/Class9th(Instantiate&Destroy)/Scripts/Slime.cs"
+"Assets/Class9th(Instantiate&Destroy)/Scripts/Unit.cs"
+"Assets/Class9th(Instantiate&Destroy)/Scripts/Wraith.cs"
 -langversion:9.0
 
 /deterministic
