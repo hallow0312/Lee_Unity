@@ -39,5 +39,14 @@ public class CreateManager : MonoBehaviour
     {
         factory = GetComponent<Factory>();  
     }
-    
+    private void Start()
+    {
+        InvokeRepeating(nameof(Use),1, 5);
+    }
+    //Invoke() : 특정한 시간마다 함수를 호출하는 함수 .
+    public void Use()
+    {
+        int select= Random.Range(0, 2);
+        factory.Create((UnitType)select);
+    }
 }

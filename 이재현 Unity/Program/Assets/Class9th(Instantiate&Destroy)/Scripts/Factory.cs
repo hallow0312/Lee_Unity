@@ -21,7 +21,7 @@ public class Factory : MonoBehaviour
         {
             case UnitType.SLIME: unit = Instantiate(slime, new Vector3(x, 0, z), Quaternion.identity);
                 break;
-            case UnitType.WRAITH: unit = Instantiate(slime, new Vector3(x, 0, z), Quaternion.identity);
+            case UnitType.WRAITH: unit = Instantiate(wraith, new Vector3(x, 0, z), Quaternion.identity);
                 break;
                 
                
