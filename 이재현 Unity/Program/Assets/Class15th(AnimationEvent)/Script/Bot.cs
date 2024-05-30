@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using UnityEngine; 
 
 public class Bot : MonoBehaviour  
-{ 
-      public void Attack()
+{
+   public Capsule capsule;
+      public void Attack(float attack)
     {
-        Debug.Log("Attack");
+        if (capsule != null)
+        {
+            capsule.Damage(attack);
+        }
     }
 
 
