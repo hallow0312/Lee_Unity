@@ -19,25 +19,33 @@ public class Ball : MonoBehaviour
     void Update()
     {   if(manager.State==false)
         {
+           
+            rigidBody.freezeRotation = true;
+            rigidBody.useGravity = false;
+            rigidBody.Sleep();
             return;
         }
         direction.x = Input.GetAxisRaw("Horizontal");
         direction.z = Input.GetAxisRaw("Vertical");
     }
     private void FixedUpdate()
-    {
+    {   
+        if(manager.State==false)
+        { 
+            return;
+        }
         rigidBody.AddForce(direction * speed * Time.fixedDeltaTime, ForceMode.Impulse);
     }
-    private void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("OnCollisionEnter");
-    }
-    private void OnCollisionStay(Collision collision)
-    {
-        Debug.Log("OnCollisionStay");
-    }
-        private void OnCollisionExit(Collision collision)
-        {
-            Debug.Log("OnCollisionExit");
-        }
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    Debug.Log("OnCollisionEnter");
+    //}
+    //private void OnCollisionStay(Collision collision)
+    //{
+    //    Debug.Log("OnCollisionStay");
+    //}
+    //    private void OnCollisionExit(Collision collision)
+    //    {
+    //        Debug.Log("OnCollisionExit");
+    //    }
    }
