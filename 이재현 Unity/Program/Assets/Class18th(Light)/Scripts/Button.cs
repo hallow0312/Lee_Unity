@@ -7,11 +7,11 @@ public class Button : MonoBehaviour
 {
     
     public DataManager dataManager;
+       
     
-    private void OnButtonClick()
+   public void OnClick()
     {
         dataManager.SetData();
-        
     }
     
 }

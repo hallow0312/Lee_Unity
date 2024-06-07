@@ -19,8 +19,9 @@ public class DataManager : MonoBehaviour
     
     public void SetData()
     {
-        coin += 100;
+        coin = coin + 100;
         PlayerPrefs.SetInt("Coin",coin);
+        PlayerPrefs.Save();
     
     }
 }
